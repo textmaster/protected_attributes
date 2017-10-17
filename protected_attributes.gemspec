@@ -17,11 +17,11 @@ Gem::Specification.new do |gem|
   gem.test_files    = Dir["test/**/*.rb"]
   gem.require_paths = ["lib"]
 
-  gem.add_dependency "activemodel",  ">= 4.0.1", "< 5.0"
+  gem.add_dependency "activemodel",  ">= 4.0.1", "< 6.0"
 
-  gem.add_development_dependency "activerecord", ">= 4.0.1", "< 5.0"
-  gem.add_development_dependency "actionpack",   ">= 4.0.1", "< 5.0"
-  gem.add_development_dependency "railties",   ">= 4.0.1", "< 5.0"
+  gem.add_development_dependency "activerecord", ">= 4.0.1", "< 6.0"
+  gem.add_development_dependency "actionpack",   ">= 4.0.1", "< 6.0"
+  gem.add_development_dependency "railties",   ">= 4.0.1", "< 6.0"
   gem.add_development_dependency "sqlite3"
   gem.add_development_dependency "mocha"
 end
